@@ -5,7 +5,7 @@ Docker - CodeIgniter 3.1.13 (PHP 7.1) - RabbitMQ
 - En la ruta docker/php se encuentra el archivo init.sh donde se asigna permisos a la carpeta cache
 - Se agrega archivo .htaccess donde se coloca regla para omitir el index.php de las url's
 - Se agrega el archivo application/config/ci_rabbitmq.php donde se encuentran las credenciales para conectar a RabbitMQ
-- Se modifica el archivo application/config/config.php para permitir tener una url base en ['base_url'], omitir el index.php en las url's en ['index_page'], permitir cargar la carpeta vendor en ['composer_autoload'] e indicar como lenguaje el español en ['language']
+- Se modifica el archivo application/config/config.php para permitir tener una url base en ['base_url'], omitir el index.php en las url's en ['index_page'] y permitir cargar la carpeta vendor en ['composer_autoload']
 - Se modifica el archivo application/config/autoload.php para agregar el helper url en ['helper']
 
 ## Docker
